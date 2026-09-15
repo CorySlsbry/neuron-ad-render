@@ -1,0 +1,161 @@
+lines scanned: 11620; events: 160
+2026-08-22T01:36:56 | 2055 | Heredoc | render_shot.py | 7285B cmd; marker=PY
+2026-08-22T01:36:56 | 2055 | Heredoc | shots.json | 7285B cmd; marker=JSON
+2026-08-22T01:42:25 | 2155 | Write | lipsync_shot.py | 3681B  C:\Users\Cory\Downloads\neuron-ad-render\lipsync_shot.py
+2026-08-22T01:43:54 | 2162 | Write | assemble.py | 9032B  C:\Users\Cory\Downloads\neuron-ad-render\assemble.py
+2026-08-22T01:47:29 | 2284 | Edit | assemble.py | old=165B new=535B all=False
+2026-08-22T01:47:39 | 2291 | Edit | assemble.py | old=23B new=24B all=True
+2026-08-22T01:47:59 | 2305 | Write | voicecheck.py | 2375B  C:\Users\Cory\Downloads\neuron-ad-render\voicecheck.py
+2026-08-22T01:55:12 | 2423 | PyPatch | assemble.py | 2934B cmd; side=['ffmpeg']
+2026-08-22T02:19:32 | 2721 | PyWrite | shots.json | 4169B cmd; side=none
+2026-08-22T02:21:56 | 2741 | PyPatch | render_shot.py | 1354B cmd; side=none
+2026-08-22T02:34:16 | 2869 | Edit | lipsync_shot.py | old=95B new=155B all=False
+2026-08-22T02:34:56 | 2884 | PyPatch | lipsync_shot.py | 2885B cmd; side=['urllib', 'subprocess', 'ffmpeg']
+2026-08-22T02:36:14 | 2898 | Write | lipsync_shot.py | 5028B  C:\Users\Cory\Downloads\neuron-ad-render\lipsync_shot.py
+2026-08-22T02:36:54 | 2924 | Edit | assemble.py | old=176B new=291B all=False
+2026-08-22T03:21:34 | 3136 | Write | library_export.py | 14695B  C:\Users\Cory\Downloads\neuron-ad-render\library_export.py
+2026-08-22T03:22:06 | 3149 | Write | find_clip.py | 2064B  C:\Users\Cory\Downloads\neuron-ad-render\find_clip.py
+2026-08-22T03:26:44 | 3191 | Edit | find_clip.py | old=165B new=212B all=False
+2026-08-22T03:41:18 | 3257 | PyWrite | shots.json | 533B cmd; side=none
+2026-08-22T03:42:52 | 3283 | Edit | assemble.py | old=729B new=1231B all=False
+2026-08-22T03:43:07 | 3290 | Edit | assemble.py | old=553B new=1063B all=False
+2026-08-22T03:43:35 | 3297 | Write | sts_shot.py | 4660B  C:\Users\Cory\Downloads\neuron-ad-render\sts_shot.py
+2026-08-22T03:43:54 | 3310 | PyWrite | shots.json | 2377B cmd; side=none
+2026-08-22T03:44:22 | 3332 | PyPatch | shots.json | 1233B cmd; side=none
+2026-08-22T03:44:39 | 3339 | Edit | assemble.py | old=34B new=129B all=False
+2026-08-22T03:47:31 | 3380 | Edit | assemble.py | old=570B new=815B all=False
+2026-08-22T03:47:42 | 3388 | Edit | assemble.py | old=26B new=92B all=False
+2026-08-22T03:47:50 | 3395 | Edit | assemble.py | old=36B new=26B all=False
+2026-08-22T03:49:38 | 3437 | Edit | library_export.py | old=105B new=747B all=False
+2026-08-22T03:49:53 | 3444 | Edit | library_export.py | old=403B new=781B all=False
+2026-08-22T03:50:02 | 3457 | Edit | library_export.py | old=107B new=114B all=False
+2026-08-22T03:50:14 | 3464 | Edit | library_export.py | old=407B new=736B all=False
+2026-08-22T03:50:22 | 3471 | Edit | library_export.py | old=109B new=112B all=False
+2026-08-22T04:07:28 | 3649 | PyWrite | shots.json | 4669B cmd; side=none
+2026-08-22T04:08:10 | 3662 | Heredoc | render_with_wallet.py | 5580B cmd; marker=PY
+2026-08-22T04:08:22 | 3669 | Edit | library_export.py | old=160B new=814B all=False
+2026-08-22T04:08:31 | 3676 | Edit | library_export.py | old=77B new=88B all=False
+2026-08-22T04:08:42 | 3689 | Edit | library_export.py | old=137B new=276B all=False
+2026-08-22T04:25:09 | 3783 | PyPatch | shots.json | 1588B cmd; side=none
+2026-08-22T04:28:19 | 3850 | Edit | render_with_wallet.py | old=138B new=199B all=False
+2026-08-22T04:51:09 | 4004 | Heredoc | make_look.py | 3394B cmd; marker=PY
+2026-08-22T04:52:31 | 4052 | Write | make_avatar.py | 2574B  C:\Users\Cory\Downloads\neuron-ad-render\make_avatar.py
+2026-08-22T04:53:06 | 4066 | Edit | render_shot.py | old=438B new=1070B all=False
+2026-08-22T04:53:30 | 4084 | Edit | render_shot.py | old=439B new=1080B all=False
+2026-08-22T04:53:45 | 4092 | PyPatch | shots.json | 1032B cmd; side=none
+2026-08-22T04:54:07 | 4112 | Edit | library_export.py | old=216B new=525B all=False
+2026-08-22T04:54:20 | 4119 | Edit | library_export.py | old=68B new=0B all=False
+2026-08-22T04:54:30 | 4126 | Edit | library_export.py | old=109B new=180B all=False
+2026-08-22T04:54:39 | 4140 | Edit | library_export.py | old=88B new=103B all=False
+2026-08-22T04:54:48 | 4147 | Edit | library_export.py | old=139B new=331B all=False
+2026-08-22T04:55:00 | 4154 | Edit | library_export.py | old=106B new=701B all=False
+2026-08-22T04:58:53 | 4203 | PyWrite | looks.json | 2879B cmd; side=none
+2026-08-22T05:02:22 | 4279 | PyWrite | looks.json | 1666B cmd; side=none
+2026-08-22T05:06:54 | 4401 | Edit | library_export.py | old=159B new=736B all=False
+2026-08-22T05:25:46 | 4468 | PyWrite | shots.json | 5047B cmd; side=none
+2026-08-22T05:26:41 | 4501 | Edit | library_export.py | old=125B new=558B all=False
+2026-08-22T05:26:53 | 4508 | Edit | library_export.py | old=190B new=384B all=False
+2026-08-22T05:27:05 | 4515 | PyWrite | looks.json | 696B cmd; side=none
+2026-08-22T05:44:15 | 4567 | Edit | render_shot.py | old=254B new=408B all=False
+2026-08-22T05:44:33 | 4574 | PyPatch | shots.json | 1458B cmd; side=none
+2026-08-22T05:44:58 | 4594 | Edit | library_export.py | old=285B new=966B all=False
+2026-08-22T05:45:07 | 4601 | Edit | library_export.py | old=70B new=128B all=False
+2026-08-22T05:45:16 | 4609 | Edit | library_export.py | old=103B new=113B all=False
+2026-08-22T05:45:27 | 4622 | Edit | library_export.py | old=192B new=380B all=False
+2026-08-22T05:55:50 | 4764 | Edit | assemble.py | old=13B new=974B all=False
+2026-08-22T05:56:01 | 4771 | Edit | assemble.py | old=62B new=90B all=True
+2026-08-22T14:07:01 | 4846 | PyWrite | shots.json | 5040B cmd; side=none
+2026-08-22T14:08:28 | 4873 | Edit | render_shot.py | old=277B new=402B all=False
+2026-08-22T14:08:52 | 4887 | Edit | library_export.py | old=179B new=839B all=False
+2026-08-22T14:09:06 | 4901 | Edit | library_export.py | old=128B new=198B all=False
+2026-08-22T14:09:16 | 4908 | Edit | library_export.py | old=113B new=120B all=False
+2026-08-22T14:09:27 | 4915 | Edit | library_export.py | old=188B new=343B all=False
+2026-08-22T14:09:38 | 4928 | Edit | library_export.py | old=193B new=409B all=False
+2026-08-22T14:09:53 | 4935 | Edit | library_export.py | old=295B new=259B all=False
+2026-08-22T14:10:07 | 4943 | PyWrite | looks.json | 1069B cmd; side=none
+2026-08-22T14:18:09 | 5013 | Edit | assemble.py | old=300B new=722B all=False
+2026-08-22T14:19:38 | 5087 | PyPatch | shots.json | 1399B cmd; side=none
+2026-08-22T14:20:59 | 5115 | PyPatch | shots.json | 1355B cmd; side=none
+2026-08-22T14:26:51 | 5175 | PyWrite | shots.json | 1173B cmd; side=none
+2026-08-22T14:27:50 | 5189 | Edit | library_export.py | old=309B new=346B all=False
+2026-08-22T14:47:28 | 5507 | Edit | assemble.py | old=104B new=966B all=False
+2026-08-22T14:47:49 | 5514 | Edit | assemble.py | old=776B new=1182B all=False
+2026-08-22T14:48:06 | 5527 | Edit | assemble.py | old=155B new=154B all=False
+2026-08-22T14:48:46 | 5534 | PyWrite | shots.json | 5405B cmd; side=none
+2026-08-22T16:32:05 | 5601 | PyPatch | shots.json | 1200B cmd; side=none
+2026-08-22T16:32:33 | 5614 | Edit | render_shot.py | old=298B new=626B all=False
+2026-08-22T16:33:39 | 5641 | Edit | library_export.py | old=60B new=1559B all=False
+2026-08-22T16:33:55 | 5648 | Edit | library_export.py | old=120B new=143B all=False
+2026-08-22T16:34:09 | 5656 | Edit | library_export.py | old=155B new=495B all=False
+2026-08-22T16:34:28 | 5669 | Edit | library_export.py | old=200B new=1268B all=False
+2026-08-22T16:34:40 | 5676 | Edit | library_export.py | old=69B new=174B all=False
+2026-08-22T16:34:51 | 5683 | Edit | library_export.py | old=164B new=185B all=False
+2026-08-22T16:35:10 | 5696 | Edit | library_export.py | old=249B new=302B all=False
+2026-08-22T16:35:26 | 5704 | Edit | library_export.py | old=459B new=658B all=False
+2026-08-22T16:35:43 | 5711 | Edit | library_export.py | old=353B new=486B all=False
+2026-08-22T16:35:58 | 5724 | Edit | library_export.py | old=112B new=209B all=False
+2026-08-22T16:45:05 | 5862 | PyPatch | shots.json | 3403B cmd; side=['urllib']
+2026-08-22T17:02:49 | 6076 | Edit | assemble.py | old=722B new=1423B all=False
+2026-08-23T01:24:50 | 6264 | Heredoc | sync_drift.py | 1854B cmd; marker=PY
+2026-08-23T01:30:52 | 6278 | PyPatch | shots.json | 2794B cmd; side=none
+2026-08-23T01:32:37 | 6301 | Write | word_audit.py | 3468B  C:\Users\Cory\Downloads\neuron-ad-render\word_audit.py
+2026-08-23T01:38:53 | 6319 | Write | word_audit.py | 4466B  C:\Users\Cory\Downloads\neuron-ad-render\word_audit.py
+2026-08-23T01:39:14 | 6330 | PyWrite | shots.json | 1706B cmd; side=['whisper']
+2026-08-23T01:45:10 | 6340 | Edit | word_audit.py | old=178B new=654B all=False
+2026-08-23T01:45:22 | 6345 | Edit | word_audit.py | old=111B new=441B all=False
+2026-08-23T01:45:54 | 6356 | PyWrite | shots.json | 1631B cmd; side=['whisper']
+2026-08-23T02:03:37 | 6415 | PyPatch | word_audit.py | 7007B cmd; side=['whisper']
+2026-08-23T02:16:26 | 6473 | Write | make_thumbs.py | 4691B  C:\Users\Cory\Downloads\neuron-ad-render\make_thumbs.py
+2026-08-23T02:18:47 | 6502 | PyWrite | make_thumbs.py | 2046B cmd; side=none
+2026-08-23T02:31:44 | 6591 | Write | post_plan.py | 8029B  C:\Users\Cory\Downloads\neuron-ad-render\post_plan.py
+2026-08-23T02:39:53 | 6707 | Write | yt_post.py | 3058B  C:\Users\Cory\Downloads\neuron-ad-render\yt_post.py
+2026-08-23T17:51:07 | 6850 | Edit | yt_post.py | old=111B new=371B all=False
+2026-08-24T13:28:04 | 7300 | PyPatch | make_look.py | 2432B cmd; side=none
+2026-08-24T18:16:21 | 7509 | PyWrite | shots.json | 3475B cmd; side=['subprocess']
+2026-08-24T18:19:17 | 7536 | PyWrite | shots.json | 5480B cmd; side=['urllib', 'subprocess', 'lineage']
+2026-08-24T18:19:56 | 7555 | Edit | assemble.py | old=259B new=775B all=False
+2026-08-24T18:20:18 | 7567 | Edit | assemble.py | old=49B new=431B all=False
+2026-08-24T18:20:54 | 7579 | PyPatch | make_thumbs.py | 1610B cmd; side=['subprocess']
+2026-08-25T00:27:34 | 8228 | PyPatch | assemble.py,shots.json | 5797B cmd; side=['subprocess']
+2026-08-25T00:27:50 | 8243 | PyWrite | shots.json | 1677B cmd; side=['subprocess', 'whisper']
+2026-08-25T00:30:35 | 8259 | PyPatch | shots.json | 1680B cmd; side=['subprocess', 'whisper', 'ffmpeg']
+2026-08-25T00:32:47 | 8298 | PyWrite | shots.json | 5320B cmd; side=['urllib', 'lineage']
+2026-08-23T01:32:37 | 8463 | Write | word_audit.py | 3468B  C:\Users\Cory\Downloads\neuron-ad-render\word_audit.py
+2026-08-23T01:38:53 | 8475 | Write | word_audit.py | 4466B  C:\Users\Cory\Downloads\neuron-ad-render\word_audit.py
+2026-08-23T01:39:14 | 8480 | PyWrite | shots.json | 1706B cmd; side=['whisper']
+2026-08-23T01:45:10 | 8488 | Edit | word_audit.py | old=178B new=654B all=False
+2026-08-23T01:45:22 | 8493 | Edit | word_audit.py | old=111B new=441B all=False
+2026-08-23T01:45:54 | 8498 | PyWrite | shots.json | 1631B cmd; side=['whisper']
+2026-08-23T02:03:37 | 8545 | PyPatch | word_audit.py | 7007B cmd; side=['whisper']
+2026-08-23T02:16:26 | 8574 | Write | make_thumbs.py | 4691B  C:\Users\Cory\Downloads\neuron-ad-render\make_thumbs.py
+2026-08-23T02:18:47 | 8591 | PyWrite | make_thumbs.py | 2046B cmd; side=none
+2026-08-23T02:31:44 | 8662 | Write | post_plan.py | 8029B  C:\Users\Cory\Downloads\neuron-ad-render\post_plan.py
+2026-08-23T02:39:53 | 8738 | Write | yt_post.py | 3058B  C:\Users\Cory\Downloads\neuron-ad-render\yt_post.py
+2026-08-24T18:19:17 | 9010 | PyWrite | shots.json | 5480B cmd; side=['urllib', 'subprocess', 'lineage']
+2026-08-24T18:19:56 | 9022 | Edit | assemble.py | old=259B new=775B all=False
+2026-08-24T18:20:18 | 9034 | Edit | assemble.py | old=49B new=431B all=False
+2026-08-24T18:20:54 | 9046 | PyPatch | make_thumbs.py | 1610B cmd; side=['subprocess']
+2026-08-25T00:27:34 | 9357 | PyPatch | assemble.py,shots.json | 5797B cmd; side=['subprocess']
+2026-08-25T00:27:50 | 9364 | PyWrite | shots.json | 1677B cmd; side=['subprocess', 'whisper']
+2026-08-25T00:30:35 | 9379 | PyPatch | shots.json | 1680B cmd; side=['subprocess', 'whisper', 'ffmpeg']
+2026-08-25T00:32:47 | 9411 | PyWrite | shots.json | 5320B cmd; side=['urllib', 'lineage']
+2026-08-26T18:17:12 | 9738 | PyWrite | shots.json | 394B cmd; side=none
+2026-08-26T18:18:13 | 9769 | PyWrite | shots.json | 1666B cmd; side=none
+2026-08-26T18:19:14 | 9789 | Write | make_vo.py | 6541B  C:\Users\Cory\Downloads\neuron-ad-render\make_vo.py
+2026-08-26T18:20:19 | 9808 | Edit | make_vo.py | old=170B new=187B all=False
+2026-08-26T18:23:28 | 9820 | Edit | make_vo.py | old=635B new=624B all=False
+2026-08-26T18:23:35 | 9832 | PyWrite | make_vo.py | 587B cmd; side=['subprocess']
+2026-08-26T18:25:19 | 9839 | PyWrite | shots.json | 298B cmd; side=none
+2026-08-27T00:40:18 | 9999 | PyPatch | shots.json | 1682B cmd; side=none
+2026-08-27T00:46:05 | 10046 | PyPatch | lipsync_shot.py | 1175B cmd; side=none
+2026-08-27T00:57:12 | 10107 | PyPatch | shots.json | 1720B cmd; side=none
+2026-08-27T00:57:56 | 10121 | Write | reroll_a.py | 5904B  C:\Users\Cory\Downloads\neuron-ad-render\reroll_a.py
+2026-08-27T17:35:49 | 10454 | PyPatch | assemble.py,shots.json | 5130B cmd; side=none
+2026-08-27T17:36:23 | 10466 | Write | intro_run.py | 7091B  C:\Users\Cory\Downloads\neuron-ad-render\intro_run.py
+2026-08-27T17:58:08 | 10573 | PyPatch | intro_run.py,lipsync_shot.py,shots.json | 3476B cmd; side=['subprocess', 'ffmpeg']
+2026-08-27T18:00:12 | 10615 | PyPatch | make_vo.py | 1302B cmd; side=['urllib']
+2026-08-27T18:10:19 | 10662 | PyPatch | make_vo.py | 1940B cmd; side=['urllib']
+2026-08-27T18:19:19 | 10694 | Write | intro_partial.py | 3162B  C:\Users\Cory\Downloads\neuron-ad-render\intro_partial.py
+2026-08-27T19:48:22 | 10860 | PyWrite | intro_run.py | 1577B cmd; side=['urllib', 'subprocess']
+2026-08-27T21:19:33 | 10893 | PyWrite | intro_run.py,render_shot.py | 1952B cmd; side=['urllib', 'subprocess']
+2026-08-27T21:52:32 | 10920 | PyPatch | intro_run.py,render_shot.py | 1476B cmd; side=none

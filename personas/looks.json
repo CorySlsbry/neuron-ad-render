@@ -1,0 +1,160 @@
+{
+ "_readme": "Persona LOOKS: one face per persona, a small set of wardrobe+hair looks that match the vertical. Pick the look BEFORE rendering (render_shot.py PERSONA map / --look=<key>). New look = make_look.py (Nano Banana Pro edit of the hero still, $0.04, eyes-on gate) -> make_avatar.py (HeyGen photo avatar, ~$1-2) -> add the id here and in render_shot.py LOOKS.",
+ "P1-operator": {
+  "face": "P1-the-operator.png",
+  "voice": {
+   "name": "Hope - upbeat and clear",
+   "elevenlabs_id": "tnSpp4vdxKPjI9w0GnoV"
+  },
+  "looks": {
+   "work-shirt": {
+    "heygen_look": "38fe6195513c85f6e11f4a6355f8c2d3",
+    "still": "P1-the-operator.png",
+    "wardrobe": "plain navy soft-collared work shirt, sleeves pushed up",
+    "hair": "dark blonde, loosely pinned up (messy bun)",
+    "fits": [
+     "auto repair",
+     "contractors / home services",
+     "trades"
+    ],
+    "used_in": [
+     "auto v1/v2",
+     "contractors v1",
+     "general v1"
+    ]
+   },
+   "pro-blouse": {
+    "heygen_look": "1b35dda98b0a36edcbd35f100d54990b",
+    "still": "P1-look-pro-blouse.png",
+    "wardrobe": "ivory silk blouse, soft open collar, small gold studs",
+    "hair": "down, soft shoulder-length waves",
+    "fits": [
+     "general local business",
+     "retail / boutique",
+     "salon / wellness front-of-house"
+    ],
+    "used_in": [
+     "general-pro v1 (APPROVED by Cory 2026-08-21)"
+    ]
+   },
+   "pro-blazer": {
+    "heygen_look": null,
+    "still": "P1-look-pro-blazer.png",
+    "wardrobe": "navy blazer over white crew tee",
+    "hair": "neat low ponytail",
+    "fits": [
+     "law",
+     "accounting / professional services",
+     "real estate"
+    ],
+    "used_in": []
+   },
+   "pro-knit (REJECTED 2026-08-21)": {
+    "heygen_look": null,
+    "still": "P1-look-pro-knit.png",
+    "status": "rejected by Cory (outfit + hair)",
+    "fits": []
+   },
+   "pro-sage (candidate)": {
+    "heygen_look": null,
+    "still": "P1-look-pro-sage.png",
+    "wardrobe": "fitted sage-green button-up, sleeves rolled once, tiny silver studs",
+    "hair": "sleek straight shoulder-length blunt cut, centre part",
+    "fits": [
+     "smart-casual / general",
+     "wellness"
+    ],
+    "used_in": []
+   },
+   "pro-mockneck (candidate)": {
+    "heygen_look": null,
+    "still": "P1-look-pro-mockneck.png",
+    "wardrobe": "fine black mock-neck top, thin gold chain",
+    "hair": "smooth polished low chignon",
+    "fits": [
+     "med spa / aesthetics",
+     "premium services"
+    ],
+    "used_in": []
+   },
+   "pro-camel (candidate)": {
+    "heygen_look": null,
+    "still": "P1-look-pro-camel.png",
+    "wardrobe": "camel unstructured blazer over cream crew tee, small gold hoops",
+    "hair": "high sleek ponytail",
+    "fits": [
+     "real estate",
+     "professional-warm"
+    ],
+    "used_in": []
+   },
+   "medspa (proposed)": {
+    "heygen_look": null,
+    "still": "P1-look-medspa.png",
+    "wardrobe": "white collarless tunic, small studs, soft natural makeup",
+    "hair": "sleek low bun",
+    "fits": [
+     "med spa",
+     "aesthetics clinic"
+    ],
+    "used_in": [],
+    "status": "proposed 2026-08-21; alternative = pro-mockneck"
+   }
+  }
+ },
+ "P2-advisor": {
+  "face": "P2-the-advisor.png",
+  "voice": {
+   "name": "Eric (premade)",
+   "elevenlabs_id": "cjVigY5qzO86Huf0OWal"
+  },
+  "looks": {
+   "blue-shirt": {
+    "heygen_look": "eceb44fbf76973b1881b526f6b1de3a0",
+    "still": "P2-the-advisor.png",
+    "wardrobe": "light-blue button-up, open collar, sleeves rolled",
+    "hair": "short salt-and-pepper, light stubble",
+    "fits": [
+     "dental",
+     "med spa (owner)",
+     "general professional"
+    ],
+    "used_in": [
+     "dental v1"
+    ]
+   },
+   "law-blazer": {
+    "heygen_look": "cd829141581435bcc63f5d0a70ea2267",
+    "still": "P2-look-law-blazer.png",
+    "wardrobe": "navy blazer over crisp white open-collar shirt, no tie",
+    "hair": "same (short salt-and-pepper, light stubble)",
+    "fits": [
+     "law",
+     "finance",
+     "professional services"
+    ],
+    "used_in": [
+     "law v1 (rendering 2026-08-22)"
+    ],
+    "status": "CHOSEN 2026-08-22"
+   }
+  }
+ },
+ "_canonical_base": {
+  "path": "C:\\Users\\Cory\\Downloads\\cory-canonical-2026-08.jpg",
+  "source": "C:\\Users\\Cory\\Downloads\\Cory.png",
+  "set_by": "Cory 2026-08-24",
+  "rule": "THE photo base for ALL of Cory's likeness generation (guides, stills, HeyGen looks, Kie stills). Supersedes salisburyre-avatar-test/cory_identity_ref.jpg (a video frame). Existing HeyGen looks 06d6f208/8fbedc63 predate it."
+ },
+ "CORY-neutral-A": {
+  "look_id": "3251701b3e1bf0ba5550dc958b8e6430",
+  "still": "cory-neutral-A.png",
+  "note": "Cory 2026-08-24 pick: soft neutral RESTING mouth (lips together, faint warmth, no smile) edited off the canonical base. USE THIS for Cory talking-avatar renders - the old canonical look d477d7b1 smiles at rest and every render inherited the grin. (still PNG lost with the Aug tree; regenerate from _canonical_base with make_look.py if a new HeyGen look is ever needed)"
+ },
+ "CORY-neutral-C": {
+  "look_id": "f7d2cdcd237575d8e29adc8db0c51725",
+  "still": "cory-neutral-C.png",
+  "note": "Backup talking reference (lips parted), created 2026-08-24 as a HeyGen dead-zone nudge spend. Cory picked A as the standing reference."
+ },
+ "_recovered": "2026-09-15 from the session transcript; P1/P2 entries are the persona ads' looks (historical)."
+}

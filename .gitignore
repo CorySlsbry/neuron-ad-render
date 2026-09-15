@@ -1,0 +1,9 @@
+*.mp4
+*.mp3
+*.wav
+*.log
+*_check.wav
+*.mkv
+build/
+__pycache__/
+.kie_tasks.json
